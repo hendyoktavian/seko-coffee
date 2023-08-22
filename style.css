@@ -603,6 +603,9 @@ footer .credit a {
   .about .row {
     flex-wrap: wrap;
   }
+  .about .row .about-img {
+    margin: 0;
+  }
 
   .about .row .about-img img {
     height: 24rem;
