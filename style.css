@@ -41,8 +41,8 @@ body {
 
 .navbar .navbar-logo {
   font-size: 2rem;
-  font-weight: 700;
-  color: #fff;
+  font-weight: 300;
+  color: var(--bg);
 }
 
 .navbar .navbar-logo span {
@@ -423,7 +423,15 @@ body {
   padding: 2rem;
   font-size: 1.7rem;
   background: none;
-  color: #fff;
+  color: var(--bg);
+}
+
+.contact .row form .input-group textarea {
+  width: 100%;
+  padding: 2rem 0 2rem 2rem;
+  font-size: 1.7rem;
+  background: none;
+  color: var(--bg);
 }
 
 .contact .row form .btn {
